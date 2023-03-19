@@ -14,7 +14,7 @@ import {mainQueue} from './modules/MainQueue.js'
 //if you are testing in a local environment try:
 //const myRequest = new Request("./resources/wordLists/listaTraducidaEngSpaArrA12B12.json");
 
-//const myRequest = new Request(".vercel/static/listaTraducidaEngSpaArrA12B12.json");
+const myRequest = new Request("resources/wordLists/listaTraducidaEngSpaArrA12B12.json");
 fetch(myRequest)
 .then(res => res.json())
 .then(data => {

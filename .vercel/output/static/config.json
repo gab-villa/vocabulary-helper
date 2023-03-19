@@ -1,3 +1,0 @@
-type Config = {
-    version: 3;
-};
