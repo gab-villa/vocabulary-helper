@@ -13,7 +13,7 @@ import {mainQueue} from './modules/MainQueue.js'
 //import data from './resources/wordLists/listaTraducidaEngSpaArrA12B12.json' assert {type: 'JSON'};
 
 
-const myRequest = new Request("./resources/wordLists/listaTraducidaEngSpaArrA12B12.json");
+const myRequest = new Request("https://vocabulary-helper-l1vj33jy7-gab-villa.vercel.app/wordLists/listaTraducidaEngSpaArrA12B12.json");
 fetch(myRequest)
 .then(res => res.json())
 .then(data => {
