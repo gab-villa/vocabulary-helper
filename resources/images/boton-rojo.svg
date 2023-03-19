@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50" viewBox="0 0 640 640" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(4.58 0 0 4.58 308.74 308.74)" id="u2HH7qaRcGcaBF0ki8_-f"  >
+<filter id="SVGID_24" y="-24%" height="148%" x="-24%" width="148%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="1"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(21,225,203); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(247,47,58); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_24);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -67.22689 C 37.10924 -67.22689 67.22689 -37.10924 67.22689 0 C 67.22689 37.10924 37.10924 67.22689 0 67.22689 C -37.10924 67.22689 -67.22689 37.10924 -67.22689 0 C -67.22689 -37.10924 -37.10924 -67.22689 0 -67.22689 z" stroke-linecap="round" />
+</g>
+</svg>

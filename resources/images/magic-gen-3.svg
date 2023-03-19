@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="640" viewBox="0 0 640 640" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(4.75 0 0 3.31 320 418.98)" id="LUHT5FEPE5c6lMK_CLbLK"  >
+<path style="stroke: rgb(49,168,247); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(108,59,244); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -67.22689 -67.22689 L 67.22689 -67.22689 L 67.22689 67.22689 L -67.22689 67.22689 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(2.86 0 0 0.67 317.08 146.46)" id="HjrcX4jPterPKQHWe5e6v"  >
+<path style="stroke: rgb(49,168,247); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(108,59,244); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -67.22689 -67.22689 L 67.22689 -67.22689 L 67.22689 67.22689 L -67.22689 67.22689 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.74 0 0 -0.74 70.31 556.38)" id="WkkIIJWfSNwwhM4wWx7bj"  >
+<filter id="SVGID_14" y="-25%" height="150%" x="-25%" width="150%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="-4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<g style="filter: url(#SVGID_14);" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="TMpUgHw31sDKMMUKYMJxC"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-39.96, -40)" d="M 74.2 31.8 L 67.5 31.8 C 66.2 31.8 65.1 31.1 64.6 29.8 C 64.1 28.5 64.3 27.3 65.3 26.3 L 70.1 21.5 C 72.39999999999999 19.2 72.39999999999999 15.4 70.1 13.1 L 67 10 C 65.9 8.9 64.4 8.3 62.8 8.3 C 61.19999999999999 8.3 59.699999999999996 8.9 58.599999999999994 10 L 53.8 14.8 C 52.9 15.700000000000001 51.599999999999994 16 50.3 15.5 C 49.099999999999994 15 48.3 13.9 48.3 12.6 L 48.3 5.9 C 48.3 2.6000000000000005 45.599999999999994 0 42.4 0 L 37.9 0 C 34.6 0 32 2.7 32 5.9 L 32 12.600000000000001 C 32 13.900000000000002 31.3 15.000000000000002 30 15.500000000000002 C 28.8 16 27.5 15.800000000000002 26.5 14.800000000000002 L 21.6 10 C 20.5 8.9 19 8.3 17.400000000000002 8.3 C 15.800000000000002 8.3 14.300000000000002 8.9 13.200000000000003 10 L 10.100000000000003 13.1 C 7.800000000000003 15.399999999999999 7.800000000000003 19.2 10.100000000000003 21.5 L 14.900000000000002 26.3 C 15.800000000000002 27.2 16.1 28.5 15.600000000000001 29.8 C 15.100000000000001 31.1 14.000000000000002 31.8 12.700000000000001 31.8 L 5.9 31.8 C 2.6000000000000005 31.8 0 34.5 0 37.7 L 0 42.2 C 0 45.5 2.7 48.1 5.9 48.1 L 12.600000000000001 48.1 C 13.900000000000002 48.1 15.000000000000002 48.800000000000004 15.500000000000002 50.1 C 16 51.300000000000004 15.800000000000002 52.6 14.800000000000002 53.6 L 10 58.5 C 7.7 60.8 7.7 64.6 10 66.9 L 13.1 70 C 15.399999999999999 72.3 19.2 72.3 21.5 70 L 26.3 65.2 C 27.2 64.3 28.5 64 29.8 64.5 C 31 65 31.8 66.1 31.8 67.4 L 31.8 74.10000000000001 C 31.8 77.4 34.5 80.00000000000001 37.7 80.00000000000001 L 42.2 80.00000000000001 C 45.5 80.00000000000001 48.1 77.30000000000001 48.1 74.10000000000001 L 48.1 67.4 C 48.1 66.10000000000001 48.800000000000004 65 50.1 64.5 C 51.300000000000004 64 52.6 64.2 53.6 65.2 L 58.4 70 C 60.699999999999996 72.3 64.5 72.3 66.8 70 L 69.89999999999999 66.9 C 72.19999999999999 64.60000000000001 72.19999999999999 60.800000000000004 69.89999999999999 58.50000000000001 L 65.1 53.70000000000001 C 64.19999999999999 52.80000000000001 63.89999999999999 51.50000000000001 64.39999999999999 50.20000000000001 C 64.89999999999999 49.00000000000001 65.99999999999999 48.20000000000001 67.3 48.20000000000001 L 74 48.20000000000001 C 77.3 48.20000000000001 79.9 45.50000000000001 79.9 42.30000000000001 L 79.9 37.80000000000001 C 80.1 34.5 77.4 31.8 74.2 31.8 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="vICGI27EthcRLJ9jIYOmV"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 40 20.6 C 29.3 20.6 20.6 29.3 20.6 40 C 20.6 50.7 29.3 59.4 40 59.4 C 50.7 59.4 59.4 50.7 59.4 40 C 59.4 29.299999999999997 50.7 20.6 40 20.6 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="9k01KZfQe2yhs6uhd94lw"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 55.6 40 C 55.6 48.6 48.6 55.6 40 55.6 C 31.4 55.6 24.4 48.6 24.4 40 C 24.4 31.4 31.4 24.4 40 24.4 C 48.6 24.4 55.6 31.4 55.6 40 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(0.92 0 0 0.92 123.94 521.06)" id="qxN7oiPCRzNDVGMaYHXE2"  >
+<filter id="SVGID_12" y="-25%" height="150%" x="-25%" width="150%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<g style="filter: url(#SVGID_12);" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="XiOTLfhR-CnPYQdHf_rGF"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-39.96, -40)" d="M 74.2 31.8 L 67.5 31.8 C 66.2 31.8 65.1 31.1 64.6 29.8 C 64.1 28.5 64.3 27.3 65.3 26.3 L 70.1 21.5 C 72.39999999999999 19.2 72.39999999999999 15.4 70.1 13.1 L 67 10 C 65.9 8.9 64.4 8.3 62.8 8.3 C 61.19999999999999 8.3 59.699999999999996 8.9 58.599999999999994 10 L 53.8 14.8 C 52.9 15.700000000000001 51.599999999999994 16 50.3 15.5 C 49.099999999999994 15 48.3 13.9 48.3 12.6 L 48.3 5.9 C 48.3 2.6000000000000005 45.599999999999994 0 42.4 0 L 37.9 0 C 34.6 0 32 2.7 32 5.9 L 32 12.600000000000001 C 32 13.900000000000002 31.3 15.000000000000002 30 15.500000000000002 C 28.8 16 27.5 15.800000000000002 26.5 14.800000000000002 L 21.6 10 C 20.5 8.9 19 8.3 17.400000000000002 8.3 C 15.800000000000002 8.3 14.300000000000002 8.9 13.200000000000003 10 L 10.100000000000003 13.1 C 7.800000000000003 15.399999999999999 7.800000000000003 19.2 10.100000000000003 21.5 L 14.900000000000002 26.3 C 15.800000000000002 27.2 16.1 28.5 15.600000000000001 29.8 C 15.100000000000001 31.1 14.000000000000002 31.8 12.700000000000001 31.8 L 5.9 31.8 C 2.6000000000000005 31.8 0 34.5 0 37.7 L 0 42.2 C 0 45.5 2.7 48.1 5.9 48.1 L 12.600000000000001 48.1 C 13.900000000000002 48.1 15.000000000000002 48.800000000000004 15.500000000000002 50.1 C 16 51.300000000000004 15.800000000000002 52.6 14.800000000000002 53.6 L 10 58.5 C 7.7 60.8 7.7 64.6 10 66.9 L 13.1 70 C 15.399999999999999 72.3 19.2 72.3 21.5 70 L 26.3 65.2 C 27.2 64.3 28.5 64 29.8 64.5 C 31 65 31.8 66.1 31.8 67.4 L 31.8 74.10000000000001 C 31.8 77.4 34.5 80.00000000000001 37.7 80.00000000000001 L 42.2 80.00000000000001 C 45.5 80.00000000000001 48.1 77.30000000000001 48.1 74.10000000000001 L 48.1 67.4 C 48.1 66.10000000000001 48.800000000000004 65 50.1 64.5 C 51.300000000000004 64 52.6 64.2 53.6 65.2 L 58.4 70 C 60.699999999999996 72.3 64.5 72.3 66.8 70 L 69.89999999999999 66.9 C 72.19999999999999 64.60000000000001 72.19999999999999 60.800000000000004 69.89999999999999 58.50000000000001 L 65.1 53.70000000000001 C 64.19999999999999 52.80000000000001 63.89999999999999 51.50000000000001 64.39999999999999 50.20000000000001 C 64.89999999999999 49.00000000000001 65.99999999999999 48.20000000000001 67.3 48.20000000000001 L 74 48.20000000000001 C 77.3 48.20000000000001 79.9 45.50000000000001 79.9 42.30000000000001 L 79.9 37.80000000000001 C 80.1 34.5 77.4 31.8 74.2 31.8 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="_uD5bHfu8P6_myPYn-HwF"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 40 20.6 C 29.3 20.6 20.6 29.3 20.6 40 C 20.6 50.7 29.3 59.4 40 59.4 C 50.7 59.4 59.4 50.7 59.4 40 C 59.4 29.299999999999997 50.7 20.6 40 20.6 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="AwmMPiWvBGhQskbouavTi"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 55.6 40 C 55.6 48.6 48.6 55.6 40 55.6 C 31.4 55.6 24.4 48.6 24.4 40 C 24.4 31.4 31.4 24.4 40 24.4 C 48.6 24.4 55.6 31.4 55.6 40 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(1.04 0 0 1.04 185.52 563.18)" id="t7_B7oHsb8sVnt14ng9K5"  >
+<filter id="SVGID_13" y="-25%" height="150%" x="-25%" width="150%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<g style="filter: url(#SVGID_13);" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(1 0 0 1 0 0)" id="43aAd9kIOqYKWymo4L7qt"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-39.96, -40)" d="M 74.2 31.8 L 67.5 31.8 C 66.2 31.8 65.1 31.1 64.6 29.8 C 64.1 28.5 64.3 27.3 65.3 26.3 L 70.1 21.5 C 72.39999999999999 19.2 72.39999999999999 15.4 70.1 13.1 L 67 10 C 65.9 8.9 64.4 8.3 62.8 8.3 C 61.19999999999999 8.3 59.699999999999996 8.9 58.599999999999994 10 L 53.8 14.8 C 52.9 15.700000000000001 51.599999999999994 16 50.3 15.5 C 49.099999999999994 15 48.3 13.9 48.3 12.6 L 48.3 5.9 C 48.3 2.6000000000000005 45.599999999999994 0 42.4 0 L 37.9 0 C 34.6 0 32 2.7 32 5.9 L 32 12.600000000000001 C 32 13.900000000000002 31.3 15.000000000000002 30 15.500000000000002 C 28.8 16 27.5 15.800000000000002 26.5 14.800000000000002 L 21.6 10 C 20.5 8.9 19 8.3 17.400000000000002 8.3 C 15.800000000000002 8.3 14.300000000000002 8.9 13.200000000000003 10 L 10.100000000000003 13.1 C 7.800000000000003 15.399999999999999 7.800000000000003 19.2 10.100000000000003 21.5 L 14.900000000000002 26.3 C 15.800000000000002 27.2 16.1 28.5 15.600000000000001 29.8 C 15.100000000000001 31.1 14.000000000000002 31.8 12.700000000000001 31.8 L 5.9 31.8 C 2.6000000000000005 31.8 0 34.5 0 37.7 L 0 42.2 C 0 45.5 2.7 48.1 5.9 48.1 L 12.600000000000001 48.1 C 13.900000000000002 48.1 15.000000000000002 48.800000000000004 15.500000000000002 50.1 C 16 51.300000000000004 15.800000000000002 52.6 14.800000000000002 53.6 L 10 58.5 C 7.7 60.8 7.7 64.6 10 66.9 L 13.1 70 C 15.399999999999999 72.3 19.2 72.3 21.5 70 L 26.3 65.2 C 27.2 64.3 28.5 64 29.8 64.5 C 31 65 31.8 66.1 31.8 67.4 L 31.8 74.10000000000001 C 31.8 77.4 34.5 80.00000000000001 37.7 80.00000000000001 L 42.2 80.00000000000001 C 45.5 80.00000000000001 48.1 77.30000000000001 48.1 74.10000000000001 L 48.1 67.4 C 48.1 66.10000000000001 48.800000000000004 65 50.1 64.5 C 51.300000000000004 64 52.6 64.2 53.6 65.2 L 58.4 70 C 60.699999999999996 72.3 64.5 72.3 66.8 70 L 69.89999999999999 66.9 C 72.19999999999999 64.60000000000001 72.19999999999999 60.800000000000004 69.89999999999999 58.50000000000001 L 65.1 53.70000000000001 C 64.19999999999999 52.80000000000001 63.89999999999999 51.50000000000001 64.39999999999999 50.20000000000001 C 64.89999999999999 49.00000000000001 65.99999999999999 48.20000000000001 67.3 48.20000000000001 L 74 48.20000000000001 C 77.3 48.20000000000001 79.9 45.50000000000001 79.9 42.30000000000001 L 79.9 37.80000000000001 C 80.1 34.5 77.4 31.8 74.2 31.8 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="eqSvTj9Wz5Xqy3ox6LFIw"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 40 20.6 C 29.3 20.6 20.6 29.3 20.6 40 C 20.6 50.7 29.3 59.4 40 59.4 C 50.7 59.4 59.4 50.7 59.4 40 C 59.4 29.299999999999997 50.7 20.6 40 20.6 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.04 0)" id="JQviKWmqY7LFOA70O6HVv"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,181,179); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-40, -40)" d="M 55.6 40 C 55.6 48.6 48.6 55.6 40 55.6 C 31.4 55.6 24.4 48.6 24.4 40 C 24.4 31.4 31.4 24.4 40 24.4 C 48.6 24.4 55.6 31.4 55.6 40 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(3.93 0 0 0.76 320 307.23)" id="o5L5lxabNPlhLnWfqPktt"  >
+<filter id="SVGID_139" y="-20%" height="140%" x="-20%" width="140%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="0" dy="0" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(49,168,247); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,237,53); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_139);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -67.22689 -29.698 C -67.22689 -50.42463 -63.977599999999995 -67.22689 -59.9694 -67.22689 L 59.96939 -67.22689 L 59.96939 -67.22689 C 63.97759 -67.22689 67.22688 -50.42462999999999 67.22688 -29.698 L 67.22688 29.698009999999996 L 67.22688 29.698009999999996 C 67.22688 50.42464 63.97758999999999 67.2269 59.96939 67.2269 L -59.9694 67.2269 L -59.9694 67.2269 C -63.9776 67.2269 -67.22689 50.42464 -67.22689 29.698010000000004 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1.7 0 0 1.25 479.45 523.37)" id="GzF3MRW5YAoujsVN--qjy"  >
+<filter id="SVGID_142" y="-20%" height="140%" x="-20%" width="140%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="0" dy="0" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(49,168,247); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,237,53); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_142);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -67.22689 -44.42796 C -67.22689 -57.019459999999995 -59.69453 -67.22689 -50.402879999999996 -67.22689 L 50.40289 -67.22689 L 50.40289 -67.22689 C 59.69453 -67.22689 67.2269 -57.019459999999995 67.2269 -44.42796 L 67.2269 44.42797 L 67.2269 44.42797 C 67.2269 57.01947 59.69454 67.2269 50.40289 67.2269 L -50.402879999999996 67.2269 L -50.402879999999996 67.2269 C -59.69452 67.2269 -67.22689 57.01947 -67.22689 44.42797 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.22 0 0 0.22 514.37 400.08)" id="egBgTo5-2BxrRMiOCjbsy"  >
+<filter id="SVGID_10" y="-23%" height="146%" x="-23%" width="146%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(203,49,20); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,14); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_10);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -67.22689 C 37.10924 -67.22689 67.22689 -37.10924 67.22689 0 C 67.22689 37.10924 37.10924 67.22689 0 67.22689 C -37.10924 67.22689 -67.22689 37.10924 -67.22689 0 C -67.22689 -37.10924 -37.10924 -67.22689 0 -67.22689 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.22 0 0 0.22 551.43 400.08)" id="A9C8CB5mLHF8roLz2SIv0"  >
+<filter id="SVGID_11" y="-23%" height="146%" x="-23%" width="146%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(49,168,247); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(7,0,255); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_11);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -67.22689 C 37.10924 -67.22689 67.22689 -37.10924 67.22689 0 C 67.22689 37.10924 37.10924 67.22689 0 67.22689 C -37.10924 67.22689 -67.22689 37.10924 -67.22689 0 C -67.22689 -37.10924 -37.10924 -67.22689 0 -67.22689 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.22 0 0 0.22 476.48 400.08)" id="t1k6cZwHWvWJP7ICt2nMy"  >
+<filter id="SVGID_9" y="-23%" height="146%" x="-23%" width="146%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="4" dy="4" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(31,20,203); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(53,237,53); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_9);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -67.22689 C 37.10924 -67.22689 67.22689 -37.10924 67.22689 0 C 67.22689 37.10924 37.10924 67.22689 0 67.22689 C -37.10924 67.22689 -67.22689 37.10924 -67.22689 0 C -67.22689 -37.10924 -37.10924 -67.22689 0 -67.22689 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.98 0 0 0.62 320 51.02)" id="ybpM14ofPUYZtZ62YgLyy"  >
+<path style="stroke: rgb(49,168,247); stroke-width: 10; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(108,59,244); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -269.20168 -72.60504 L -201.70305000000002 72.60504 L 194.36974999999995 72.60504 L 269.20167999999995 -72.60504 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.69 0 0 1.92 605.34 146.46)" id="JPwOzmljG9zXCAF3KigwA"  >
+<filter id="SVGID_45" y="-20%" height="140%" x="-24%" width="148%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="0"></feGaussianBlur>
+	<feOffset dx="2" dy="0" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="1"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(179,179,179); fill-rule: nonzero; opacity: 1;filter: url(#SVGID_45);" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -23.52941 -23.52941 L 23.52941 -23.52941 L 23.52941 23.52941 L -23.52941 23.52941 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.24 0 0 0.1 605.48 103.21)" id="UxPxBgdaH2iMN60q1V9P6"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(10,10,10); fill-opacity: 0.99; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M 0 -67.22689 C 37.10924 -67.22689 67.22689 -37.10924 67.22689 0 C 67.22689 37.10924 37.10924 67.22689 0 67.22689 C -37.10924 67.22689 -67.22689 37.10924 -67.22689 0 C -67.22689 -37.10924 -37.10924 -67.22689 0 -67.22689 z" stroke-linecap="round" />
+</g>
+</svg>
