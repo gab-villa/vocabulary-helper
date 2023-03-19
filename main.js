@@ -23,7 +23,7 @@ for(let i = 0;i < MAXLENGTHWENG;i++)
 
 
 //const myRequest = new Request("listaTraducidaEngSpaArr.json");
-fetch("resources/wordLists/listaTraducidaEngSpaArrA12B12.json")
+fetch("./resources/wordLists/listaTraducidaEngSpaArrA12B12.json")
 .then(res => res.json())
 .then(data => {
       let dataRef = { 
