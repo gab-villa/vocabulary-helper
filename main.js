@@ -10,53 +10,18 @@ import {getRandomInt, getRandomIntFromInterval} from './modules/RandFunctions.js
 import {wordQueue} from './modules/WordQueue.js';
 import {mainQueue} from './modules/MainQueue.js'
 
-//var mainQueue = new CircularQueue(MAXLENGTHMAIN);
-//var wengQueue = new CircularQueue(MAXLENGTHWENG);
-//var ulWordList = document.getElementById("wordList");
-//var ul = createWengList();
-
-/*
-for(let i = 0;i < MAXLENGTHWENG;i++)
-{
-  appendChildToWengList("nue");
-}*/
+//import data from './resources/wordLists/listaTraducidaEngSpaArrA12B12.json' assert {type: 'JSON'};
 
 
-//const myRequest = new Request("listaTraducidaEngSpaArr.json");
-fetch("./resources/wordLists/listaTraducidaEngSpaArrA12B12.json")
+const myRequest = new Request("./resources/wordLists/listaTraducidaEngSpaArrA12B12.json");
+fetch(myRequest)
 .then(res => res.json())
 .then(data => {
       let dataRef = { 
           data : data.slice()
       };
       
-      // take in account array limit and index
-      
       mainQueue.chargeRandomNumbersToMainQueue(dataRef);
       wordQueue.chargeRandomNumbersToQueue();
-      //const firstOption = wordQueue.q.getFront();
-
-      //console.log(firstWord.idword);
-      //take a random word from the left and right extreme
-      //let wordsInSpa = createOptions(dataRef, firstOption[IDWORD] -1);
-      //console.log(wordsInSpa);
-      //console.log(data[numWrong1][WSPA]);
-      
       setOptionsOfQuestion();
-      //setGlobalValue(0,wengQueue);
 });
-
-function mostrar(weng)
-{
-  console.log(weng[WENG] + " " + weng[WSPA]);
-}
-
-/*
-var readJson = (path, cb) => {
-  fs.readFile(require.resolve(path), (err, data) => {
-    if (err)
-      cb(err)
-    else
-      cb(null, JSON.parse(data))
-  })
-}*/
