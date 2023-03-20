@@ -21,26 +21,3 @@ export function getArrOfRandomInt(cantInt, max)
   }
   return randIntArray;
 }
-
-/*
-export function getManyRandomIntFromArray(dataId, cantInt)
-{
-  let randIntArray = new Array(cantInt);
-  let med, izq = 0, der = dataId.length-1;
-
-  med = getRandomIntFromInterval(izq, der);
-  --cantInt;
-  izq = getRandomIntFromInterval(izq, med-1);
-  der = getRandomIntFromInterval(med+1, der);
-  //med = (izq + der) / 2;
-  med = getRandomInt(izq-1);
-  med = getRandomInt(izq+1);
-  med = getRandomInt(der-1);
-  med = getRandomInt(der+1);
-  while(randIntArray >= 0)
-  {
-    izq = 
-    ++cantInt;
-  }
-  return randIntArray;
-}*/

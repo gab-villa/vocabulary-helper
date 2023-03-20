@@ -14,29 +14,9 @@
 <body>
 	<div id="mmenu_screen" class="container-fluid main_container d-flex">
 	    <div class="row flex-fill">
-	    	<!--
-	        <div class="col-sm-1 bg-secondary flex-fill">
-	           
-	            Prompt 1
-	        </div>-->
-
-
-	        	<!--
-	            <div class="row h-50 bg-info">
-	                <div class="col-sm-12" id="mmenu_screen--book">
-	                    
-	                    Booking
-	                </div>
-	            </div>
-	            <div class="row h-50 bg-success">
-	                <div class="col-sm-12" id="mmenu_screen--information">
-	                    
-	                    Info
-	                </div>
-	            </div>-->
 	        <div class="col-sm-12 bg-dark flex-fill">
 	            <!-- Button for direktaction -->
-	            <div class="row h-50 align-content-end justify-content-center text-center">
+	            <div class="row h-50 align-content-center justify-content-center text-center">
 		            <div class="col-sm-3 mmenu_screen flex-fill bg-dark">
 		            	<ul id="wordList" class="list-group">
 		            		<!--
@@ -44,17 +24,26 @@
 						  <li id = "w2" class="list-group-item"> loading...</li>
 						  <li id = "w3" class="list-group-item active">loading...</li>-->
 						</ul>
-		                    <!--<img class = "img-fluid" src = "resources/images/magic-gen-3.svg" width = "25%" height = "50%"/>-->
-		              
+		                <span id="remWords" class="badge badge-pill badge-secondary"></span>
 		            </div>
 		        </div>
-		        <div class="row h-50 align-content-center justify-content-center text-center">
+		        <span></span>
+		        <div class="row h-50 align-content-center justify-content-center text-center ">
+		        	
 		            <div class="col-sm-3 mmenu_screen d-flex flex-column bg-dark">
-		                <button id="opc1" type="button" class="mb-3 btn btn-info">loading...</button>
-						<button id="opc2" type= "button" class="mb-3 btn btn-info">loading...</button>
-						<button id="opc3" type="button" class="mb-3 btn btn-info">loading...</button>
-
+		            	
+		                <button id="opc1" type="button" class="mb-3 btn btn-info">
+		                	<div class = "spinner-border spinner-border-sm"></div> loading...
+		                </button>
+						<button id="opc2" type= "button" class="mb-3 btn btn-info">
+							<div class = "spinner-border spinner-border-sm"></div>
+						loading...</button>
+						<button id="opc3" type="button" class="mb-3 btn btn-info">
+							<div class = "spinner-border spinner-border-sm"></div>
+						loading...</button>
+						
 		            </div>
+
 	            </div>
 	        </div>
 	        <!--

@@ -1,11 +1,13 @@
 import {MAXLENGTHMAIN, NUMBEROFOPTIONS, MAXLENGTHARROPTS} from "./Definitions.js";
 import {CircularQueue} from "./CircularQueue.js";
+import {countWord} from './MainCounter.js'
 import {getArrOfRandomInt} from "./RandFunctions.js";
 
 var mainQueue = {};
 
 {
 	mainQueue.q = new CircularQueue(MAXLENGTHMAIN);
+
 	mainQueue.chargeRandomNumbersToMainQueue = (dataRef) =>
 	{
 		let mainElemArr;
@@ -21,7 +23,8 @@ var mainQueue = {};
 				wrong2: dataRef.data[arrRandomIndex[i+2]] 
 			});
 		}
-		console.log(mainQueue.q.getFront());
+		countWord.setRemCounter();
+		//console.log(mainQueue.q.getFront());
 		
 	}
 

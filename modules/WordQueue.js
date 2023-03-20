@@ -1,9 +1,10 @@
 import {CircularQueue} from './CircularQueue.js';
 import {setOptionsOfQuestion} from './OptionsOfQuestion.js';
 import {getRandomInt, getRandomIntFromInterval} from './RandFunctions.js';
-import {MAXLENGTHWENG, MAXLENGTHMAIN, MAXQUANTQUESTIONS, IDWORD, WENG, WSPA} 
+import {MAXLENGTHWENG, MAXLENGTHMAIN, MAXQUANTQUESTIONS, IDWORD, WENG, WSPA,LEVEL} 
        from './Definitions.js';
 import {wengList} from './WengList.js';
+import {countWord} from './MainCounter.js'
 import {mainQueue} from './MainQueue.js';
 
 var wordQueue = {};
@@ -16,7 +17,10 @@ var wordQueue = {};
 		{
 			weng = mainQueue.q.dequeue();
 			wordQueue.q.enqueue(weng);
-			wengList.appendChildToWengList(weng.ans[WENG]);
+			wengList.appendChildToWengList(weng.ans[WENG],
+						        weng.ans[LEVEL],
+						        false);
+			
 			++i;
 		}
 		if(i < MAXLENGTHWENG)
@@ -24,20 +28,7 @@ var wordQueue = {};
 			//throw exception in the future
 			console.log("mainQueue with less elements than required!");
 		}
-		/*
-		let numRand = getRandomIntFromInterval(minInterval, maxInterval), numRand2;
-		wordQueue.q.enqueue(dataRef.data[numRand]);
-		wengList.appendChildToWengList(dataRef.data[numRand][WENG], true);
-		while(!wordQueue.q.isFull())
-		{
-			do
-			{
-			    numRand2 = getRandomIntFromInterval(minInterval, maxInterval);
-			}while(numRand == numRand2);
-			wordQueue.q.enqueue(dataRef.data[numRand2]);
-			wengList.appendChildToWengList(dataRef.data[numRand2][WENG], false);
-			numRand = numRand2;
-		}*/
+
 	};
 	wordQueue.evalAns = (e) =>
 	{
@@ -56,13 +47,18 @@ var wordQueue = {};
 	  	mainQueue.q.enqueue(wordEv);
 	  	//wengList.appendChildToWengList(wordEv[WENG], true);
 	  }
+	  else
+	  {
+	  	countWord.decAndSet();
+	  }
 	  wengList.removeChildOfWengList();
 
 	  if(!mainQueue.q.isEmpty())
 	  {
 	  	wordEv = mainQueue.q.dequeue();
 	  	wordQueue.q.enqueue(wordEv);
-	  	wengList.appendChildToWengList(wordEv.ans[WENG], false);
+	  	wengList.appendChildToWengList(
+	  		wordEv.ans[WENG], wordEv.ans[LEVEL], false);
 	  }
 	  
 
@@ -70,26 +66,4 @@ var wordQueue = {};
 	};
 }
 
-
 export {wordQueue};
-/*
-function evalAns(e)
-	{
-	  let weng, strSpa;
-	  if(wengQueue.isEmpty())
-	  {
-	    return;
-	  }
-	  weng = wengQueue.dequeue();
-	  strSpa = e.target.innerText;
-
-
-	  if(weng[WSPA] == strSpa)
-	  {
-	       
-	  }
-	  else
-	  {
-	    //deleteOpcIfAnsWrong();
-	  }
-	}*/
