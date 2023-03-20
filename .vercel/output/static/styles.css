@@ -1,0 +1,7 @@
+#mmenu_screen > .row {
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex:1 1 auto;
+}
