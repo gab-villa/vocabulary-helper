@@ -44,8 +44,6 @@ var wengList = {};
 	wengList.removeChildOfWengList = () =>
 	{
 	  wengList.ls.removeChild(wengList.ls.lastElementChild);
-	  //let item = document.getele;
-	  //wengList.ls.lastElementChild.setAttribute("class", "active");
 	};
 }
 
