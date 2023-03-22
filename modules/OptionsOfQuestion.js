@@ -1,6 +1,6 @@
 /*Options of question*/
-import {getRandomInt, getRandomIntFromInterval} from "./RandFunctions.js";
-import {NUMBEROFOPTIONS, MAXQUANTQUESTIONS, WSPA} from "./Definitions.js";
+import {getRandomIntFromInterval} from "./RandFunctions.js";
+import {NUMBER_OF_OPTIONS} from "./Definitions.js";
 import {wordQueue} from './WordQueue.js';
 import {mainQueue} from './MainQueue.js';
 
@@ -8,19 +8,20 @@ import {mainQueue} from './MainQueue.js';
 export function setOptionsOfQuestion()
 {
 	let weng = wordQueue.q.getFront();
-	let randStart = getRandomInt(NUMBEROFOPTIONS-1)+1;
+	let randStart = getRandomIntFromInterval(1, NUMBER_OF_OPTIONS);
 	let opc, docOpc;
 
+	//setting also a random position of the answer
 	for (opc in weng)
 	{
 		
-		if(randStart > NUMBEROFOPTIONS)
+		if(randStart > NUMBER_OF_OPTIONS)
 		{
 			randStart = 1;
 		}
 		//should avoid repeat calling document functions
 		docOpc = document.getElementById("opc" + randStart);
-		docOpc.innerText = weng[opc][WSPA];
+		docOpc.innerText = weng[opc].wspa;
 		docOpc.addEventListener("click", wordQueue.evalAns);
 		randStart++;
 	}

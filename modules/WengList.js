@@ -16,7 +16,7 @@ var wengList = {};
 			return "badge-dark";
 		return "";
 	}
-	wengList.appendChildToWengList = (weng, lvl, isActive) =>
+	wengList.appendChildToWengList = (weng, lvl) =>
 	{
       let classItemLvl = "badge badge-primary ";
 	  let classItem = "list-group-item ";
@@ -28,12 +28,7 @@ var wengList = {};
 	  
 	  classItemLvl += wengList.clasifItem(lvl);
 
-	  if(isActive == true)
-	  {
-	    classItem += "active";
-	  }
 	  item.setAttribute("class", classItem);
-
 	  itemLvl.setAttribute("class", classItemLvl);
 
 	  item.append(itemLvl);

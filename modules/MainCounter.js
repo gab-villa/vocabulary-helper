@@ -1,8 +1,8 @@
-import {MAXLENGTHMAIN, NUMBEROFOPTIONS, MAXLENGTHARROPTS} from "./Definitions.js";
+import {TAM_MAIN_QUEUE} from "./Definitions.js";
 
 var countWord = {};
 {
-	countWord.count = MAXLENGTHMAIN;
+	countWord.count = TAM_MAIN_QUEUE;
 	countWord.docElem = document.getElementById("remWords");
 	
 	countWord.setRemCounter = () =>

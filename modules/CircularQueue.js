@@ -1,4 +1,3 @@
-// circular queue
 export {CircularQueue};
 
 class CircularQueue {

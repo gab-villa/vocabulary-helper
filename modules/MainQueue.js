@@ -1,21 +1,20 @@
-import {MAXLENGTHMAIN, NUMBEROFOPTIONS, MAXLENGTHARROPTS} from "./Definitions.js";
+import {TAM_MAIN_QUEUE, NUMBER_OF_OPTIONS} from "./Definitions.js";
 import {CircularQueue} from "./CircularQueue.js";
 import {countWord} from './MainCounter.js'
 import {getArrOfRandomInt} from "./RandFunctions.js";
 
 var mainQueue = {};
-
 {
-	mainQueue.q = new CircularQueue(MAXLENGTHMAIN);
+	mainQueue.q = new CircularQueue(TAM_MAIN_QUEUE);
 
 	mainQueue.chargeRandomNumbersToMainQueue = (dataRef) =>
 	{
+		const tamArrRand = TAM_MAIN_QUEUE*NUMBER_OF_OPTIONS;
 		let mainElemArr;
-		let arrRandomIndex = getArrOfRandomInt(MAXLENGTHARROPTS, 
+		let arrRandomIndex = getArrOfRandomInt(tamArrRand, 
 											dataRef.data.length-1);
-		let j;
-		//console.log(arrRandomIndex);
-		for(let i = 0;i < MAXLENGTHARROPTS;i+=NUMBEROFOPTIONS)
+
+		for(let i = 0;i < tamArrRand;i+=NUMBER_OF_OPTIONS)
 		{	
 			mainQueue.q.enqueue({
 				ans: dataRef.data[arrRandomIndex[i]],
@@ -24,9 +23,6 @@ var mainQueue = {};
 			});
 		}
 		countWord.setRemCounter();
-		//console.log(mainQueue.q.getFront());
-		
 	}
-
 }
 export {mainQueue};
