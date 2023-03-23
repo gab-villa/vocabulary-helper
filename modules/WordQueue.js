@@ -1,15 +1,14 @@
 import {CircularQueue} from './CircularQueue.js';
-import {setOptionsOfQuestion} from './OptionsOfQuestion.js';
-import {getRandomInt, getRandomIntFromInterval} from './RandFunctions.js';
 import {TAM_WENGLIST, TAM_MAIN_QUEUE} from './Definitions.js';
 import {wengList} from './WengList.js';
-import {countWord} from './MainCounter.js'
 import {mainQueue} from './MainQueue.js';
 
+// wordqueue have variations with queue and dequeue so
+// i think this is OK
 var wordQueue = {};
 {
 	wordQueue.q = new CircularQueue(TAM_WENGLIST);
-	wordQueue.chargeRandomNumbersToQueue = () => 
+	wordQueue.loadFromMainQueue = () => 
 	{
 		let i = 0, weng;
 		while(!mainQueue.q.isEmpty() && i < TAM_WENGLIST)
@@ -20,43 +19,22 @@ var wordQueue = {};
 						        weng.ans.level);
 			++i;
 		}
-		if(i < TAM_WENGLIST)
-		{
-			//throw exception in the future
-			console.log("mainQueue with less elements than required!");
-		}
-
 	};
-	wordQueue.evalAns = (e) =>
+	wordQueue.dequeue = () =>
 	{
-	  let wordEv, optEv, strSpa;
-	  if(wordQueue.q.isEmpty())
-	  {
-	    return;
-	  }
-	  wordEv = wordQueue.q.dequeue();
-	  strSpa = e.target.innerText;
-
-	  
-	  if(wordEv.ans.wspa != strSpa)
-	  {
-	  	mainQueue.q.enqueue(wordEv);
-	  }
-	  else
-	  {
-	  	countWord.decAndSet();
-	  }
-	  wengList.removeChildOfWengList();
-
-	  if(!mainQueue.q.isEmpty())
-	  {
-	  	wordEv = mainQueue.q.dequeue();
+		//if dequeue fails, it'll handle the error
+		//before the next line can be executed;
+		let deletedElem = wordQueue.q.dequeue();
+		wengList.removeChildOfWengList();
+		return deletedElem;
+	}
+	wordQueue.enqueueFromMainQueue = () =>
+	{
+		let wordEv = mainQueue.q.dequeue();
 	  	wordQueue.q.enqueue(wordEv);
-	  	wengList.appendChildToWengList(
-	  		wordEv.ans.weng, wordEv.ans.level);
-	  }
-	  setOptionsOfQuestion();
-	};
+	  	wengList.appendChildToWengList(wordEv.ans.weng, 
+	  					   wordEv.ans.level);
+	}
 }
 
 export {wordQueue};

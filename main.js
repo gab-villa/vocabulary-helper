@@ -1,8 +1,6 @@
 /*Main file*/
 "use strict";
 
-//import {CircularQueue} from './modules/CircularQueue.js';
-//import {Global} from './modules/Global.js';
 import {setOptionsOfQuestion} from './modules/OptionsOfQuestion.js'
 import {PATH_TO_WORDLIST} from './modules/Definitions.js';
 import {wordQueue} from './modules/WordQueue.js';
@@ -20,7 +18,7 @@ fetch(myRequest)
           data : data.slice()
       };
       
-      mainQueue.chargeRandomNumbersToMainQueue(dataRef);
-      wordQueue.chargeRandomNumbersToQueue();
+      mainQueue.loadFromWordList(dataRef);
+      wordQueue.loadFromMainQueue();
       setOptionsOfQuestion();
 });
